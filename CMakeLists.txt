@@ -9,7 +9,7 @@ endif()
 
 project(FakeQOLMods VERSION 1.0.0)
 
-add_library(${PROJECT_NAME} SHARED fakeqol_v1.cpp)
+add_library(${PROJECT_NAME} SHARED fakeqol_v2.cpp)
 
 if (NOT DEFINED ENV{GEODE_SDK})
 	message(FATAL_ERROR "Unable to find Geode SDK! Set the GEODE_SDK environment variable.")
